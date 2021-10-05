@@ -1,0 +1,131 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header .flecha {
+  margin-right: 70px;
+}
+
+.header h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #828282;
+}
+
+.imagenPrincipal {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.medidas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.medidas h2,
+.medidas p {
+  margin: 0;
+}
+
+.medidas h2 {
+  font-size: 16px;
+}
+
+.medidas p {
+  font-size: 14px;
+}
+
+.circulo {
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.precios {
+  text-align: center;
+}
+.precios p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.precios.seleccionado .circulo {
+  background-color: #fe7000;
+  color: #fff;
+  border: 1px solid #fe7000;
+}
+
+.precios.seleccionado p {
+  color: #fe7000;
+}
+
+.ingredientes {
+  display: flex;
+  overflow-y: auto;
+  padding: 0 16px;
+}
+
+.producto {
+  border: 1px solid #e0e0e0;
+  margin-right: 16px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.producto.seleccionado {
+  border: 1px solid #fe7000;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  width: 60px;
+}
+
+.subtitulo {
+  margin-left: 16px;
+}
+.producto p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.producto p:first-child {
+  font-weight: 600;
+}
+
+.cuerpoBoton {
+  padding: 0 16px;
+}
+
+.boton {
+  background: #fe7000;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 32px 0;
+  border-radius: 50px;
+}
